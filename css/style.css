@@ -53,3 +53,12 @@
 .Monto{
     grid-area: Monto;
 }
+.FAyuda img{
+    margin-top: 30px;
+    width: 500px;
+    height: 500px;
+}
+.FAyuda{
+    display: flex;
+    justify-content: center;
+}
