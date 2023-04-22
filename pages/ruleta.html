@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <title>Document</title>
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark" data-bs-theme="dark">
             <div class="container-fluid">
-              <a class="navbar-brand" href="index.html">Casino BWin</a>
+              <a class="navbar-brand" href="../index.html">Casino BWin</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -23,7 +23,7 @@
                       Juegos
                     </a>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="pages/ruleta.html">Ruleta</a></li>
+                      <li><a class="dropdown-item" href="ruleta.html">Ruleta</a></li>
                       <li><a class="dropdown-item" href="#">Slots</a></li>
                       <li><a class="dropdown-item" href="#">Mesas en vivo</a></li>
                     </ul>
@@ -43,67 +43,58 @@
           </nav>
     </header>
 
-    <main>
+    <main class="Rl Fondo">
         <section>
-            <div id="carouselExampleIndicators" class="carousel slide">
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="img/carousel/carousel1.jpg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/carousel/carousel2.jpg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/carousel/carousel3.jpg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/carousel/carousel4.jpg" class="d-block w-100" alt="...">
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-        </section>
-
-
-        <section class="container">
-            <div class="row mt-4 mb-4">
-                <h1>Nuestros juegos</h1>
+            <div>
+                <img src="https://i.pinimg.com/564x/55/06/8c/55068c90508a1a94a0c355ac23d375c4.jpg" alt="ruleta" id="FRuleta">
             </div>
-            <div class="row justify-content-around">
-                <div class="card shadow-lg mb-4" style="width: 18rem;">
-                    <img src="img/card/card1.jpg" class="card-img-top" alt="...">
-                    <div class="card-body justify-content-center d-flex flex-column">
-                      <h5 class="card-title">Crash</h5>
-                      <a href="#" class="btn btn-dark">Jugar ahora</a>
-                    </div>
-                  </div>
-                  <div class="card shadow-lg mb-4" style="width: 18rem;">
-                    <img src="img/card/card2.jpg" class="card-img-top" alt="...">
-                    <div class="card-body justify-content-center d-flex flex-column">
-                      <h5 class="card-title">Minas</h5>
-                      <a href="#" class="btn btn-dark">Jugar ahora</a>
-                    </div>
+        </section>
+        <section class="MRuleta">
+            <div class="Exp Bordes MFondo">
+                <p>Selecione el monto a apostar y luego seleccione la apuesta, cuando el timepo se acabe la ruleta va a empezar a girar.
+                Si usted acierta el numero gana el doble.
+                </p>
+            </div>
+            <div class="ExpTime Bordes MFondo">
+                <p>Este es el tiempo, cuando termine empieza a girar la ruleta</p>
+            </div>
+            <div class="Tiempo Bordes MFondo">
+                <iframe width="158" height="125" src="https://www.youtube.com/embed/aLGvopXWSIQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="Apuestas">
+                <div class="btn-group " role="group" aria-label="Basic checkbox toggle button group">
+                    <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
+                    <label class="btn btn-danger" for="btncheck1">Rojo</label>
+                  
+                    <input type="checkbox" class="btn-check" id="btncheck2" autocomplete="off">
+                    <label class="btn btn-secondary" for="btncheck2">Negro</label>
+                  
+                    <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
+                    <label class="btn btn-success" for="btncheck3">Verde</label>
+
+                    <input type="checkbox" class="btn-check" id="btncheck4" autocomplete="off">
+                    <label class="btn btn-warning" for="btncheck4">Par</label>
+
+                    <input type="checkbox" class="btn-check" id="btncheck5" autocomplete="off">
+                    <label class="btn btn-warning" for="btncheck5">Impar</label>
                   </div>
             </div>
-            
+            <div class="Load">
+                <div class="spinner-border text-primary m-1 mt-3" style="width: 3rem; height: 3rem;" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                  </div>
+            </div>
+            <div class="Monto">
+                <div>
+                    <label for="formGroupExampleInput" class="form-label"></label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Ingrese el monto">
+                  </div>
+            </div>
+
         </section>
-        
+
     </main>
 
-    
     <footer class="container-fluid">
         <div class="row p-5 bg-black text-white">
                 <div class="col mt-3">
@@ -127,6 +118,15 @@
 
         </div>
     </footer>
+
+
+
+
+
+
+
+
+
 
 
 
