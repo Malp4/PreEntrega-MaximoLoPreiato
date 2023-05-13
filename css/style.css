@@ -1,64 +1,75 @@
-.Fondo{
-    background-color: white;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-#FRuleta{
-    margin-left: 10px;
-    margin: 40px;
-    width: 700px;
-    height: 700px;
-    border-radius: 50%;
-}
-.Rl{
-    display: flex;
-    justify-content: space-between;
-}
-.Bordes{
-    margin: 2px;
-    border: 3px solid black;
-}
-.MRuleta{
-    display:grid;
-    margin-top: 120px;
-    margin-right: 400px;
-    grid-template-rows: 130px 130px 80px 30px;
-    grid-template-columns: 82px 82px 82px 82px 82px;
 
-    grid-template-areas:
-    "Exp Exp Exp Exp Exp"
-    "ExpTime ExpTime ExpTime Tiempo Tiempo "
-    "Apuestas Apuestas Apuestas Apuestas Load"
-    "Monto Monto Monto Monto Monto"
-    ;
+#FRuleta {
+  margin-left: 10px;
+  margin: 40px;
+  width: 700px;
+  height: 700px;
+  border-radius: 50%;
 }
-.MFondo{
-    background-color: rgb(189, 189, 189);
+
+.Rl {
+  display: flex;
+  justify-content: center;
 }
-.Exp{
-    grid-area: Exp;
+
+.Bordes {
+  margin: 2px;
+  border: 3px solid black;
 }
-.ExpTime{
-    grid-area: ExpTime;
+
+.MRuleta {
+  display: grid;
+  margin-top: 120px;
+  margin-right: 400px;
+  grid-template-rows: 130px 130px 80px 30px;
+  grid-template-columns: 82px 82px 82px 82px 82px;
+  grid-template-areas: "Exp Exp Exp Exp Exp" "ExpTime ExpTime ExpTime Tiempo Tiempo " "Apuestas Apuestas Apuestas Apuestas Load" "Monto Monto Monto Monto Monto";
 }
-.Tiempo{
-    grid-area: Tiempo;
+
+.MFondo {
+  background-color: rgb(189, 189, 189);
 }
-.Apuestas{
-    margin-top: 3px;
-    display: flex;
-    grid-area: Apuestas;
+
+.Exp {
+  grid-area: Exp;
 }
-.Load{
-    grid-area: Load;
+
+.ExpTime {
+  grid-area: ExpTime;
 }
-.Monto{
-    grid-area: Monto;
+
+.Tiempo {
+  grid-area: Tiempo;
 }
-.FAyuda img{
-    margin-top: 30px;
-    width: 500px;
-    height: 500px;
+
+.Apuestas {
+  margin-top: 3px;
+  display: flex;
+  grid-area: Apuestas;
 }
-.FAyuda{
-    display: flex;
-    justify-content: center;
+
+.Load {
+  grid-area: Load;
 }
+
+.Monto {
+  grid-area: Monto;
+}
+
+.FAyuda img {
+  margin-top: 30px;
+  width: 500px;
+  height: 500px;
+}
+
+.FAyuda {
+  display: flex;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=style.css.map */
